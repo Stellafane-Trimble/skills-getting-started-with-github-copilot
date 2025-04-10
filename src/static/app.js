@@ -88,3 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialize app
   fetchActivities();
 });
+document.getElementById("clearEmailButton").addEventListener("click", function () {
+  document.getElementById("studentEmail").value = "";
+});
